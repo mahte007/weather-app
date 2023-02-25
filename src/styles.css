@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: #00163b;
+}
+
+.main-container {
+    position: relative;
+    background-color: #fff;
+    width: 25%;
+    margin: 10% auto;
+    border-radius: 3%;
+}
+
+.main-container h1 {
+    padding: 2rem 2rem 0;
+}
+
+.search-container {
+    margin-left: 2rem;
+    display: flex;
+    border-radius: 3%;
+}
+
+.search-bar {
+    position: relative;
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
+.search-bar input {
+    display: block;
+    width: 100%;
+    padding: 1rem 2rem 1rem 1rem;
+    border: none;
+}
+
+.search-bar button {
+    display: inline-block;
+    position: absolute;
+    padding: 1rem;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    font-size: large;
+}
+
+.cover-image-container {
+    margin-left: 5rem;
+    width: 50%;
+    padding-bottom: 2rem;
+}
+
+.cover-image {
+    width: 60%;
+}
+
+.weather-details-container {
+    padding-top: 5rem;
+    display: block;
+    padding-left: 2rem;
+}
+
+.weather-details-container h2 {
+    line-height: 0.5;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.temperature-container {
+    display: flex;
+    width: 100%;
+}
+
+.temperature {
+    width: 50%;
+}
+
+.weather-image-container {
+    width: 50%;
+    margin-left: 5rem;
+}
+
+.weather-image {
+    width: 80%;
+}
